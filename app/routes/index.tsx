@@ -83,7 +83,16 @@ export default function () {
               </button>
               <code className="text-xs">git clone {GITHUB_URL}</code>
             </pre>
-            <div className="mt-1 flex justify-end text-xs">
+            <div className="mt-1 flex justify-between text-xs text-muted-foreground">
+              <div className="flex items-center space-x-2 font-medium" style={{ fontSize: "0.6rem" }}>
+                <Link to="https://remix-gear.vercel.app/" className="hover:underline">
+                  Remix
+                </Link>
+                <div>•</div>
+                <Link to="https://nextjs-gear.vercel.app/" className="hover:underline">
+                  Next.js
+                </Link>
+              </div>
               <Link to="https://saasrock.com" className="text-muted-foreground hover:underline" target="_blank">
                 {t("sponsoredBy")} <span className="font-bold">SaasRock</span>
               </Link>
