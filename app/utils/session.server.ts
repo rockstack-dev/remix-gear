@@ -5,7 +5,7 @@ export type UserSession = {
   theme: string;
 };
 
-const sessionSecret = process.env.SESSION_SECRET;
+const sessionSecret = process.env.SESSION_SECRET || "SESSION_SECRET";
 if (!sessionSecret) {
   throw new Error("SESSION_SECRET must be set");
 }
