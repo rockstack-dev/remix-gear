@@ -13,6 +13,7 @@ import { useChangeLanguage } from "remix-i18next";
 
 export const meta: MetaFunction<typeof loader> = ({ data }) => data?.metatags ?? [];
 
+export const handle = { i18n: "translations" };
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {
   return loadRootData({ request, params });
 };

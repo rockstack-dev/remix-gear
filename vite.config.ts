@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import { vercelPreset } from "@vercel/remix/vite";
 
 export default defineConfig({
-  server: { port: 3000 },
+  server: { port: 3001 },
   plugins: [
     tsconfigPaths(),
     remix({
