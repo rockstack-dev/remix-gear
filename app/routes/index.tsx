@@ -84,7 +84,7 @@ export default function () {
               </button>
               <code className="text-xs">git clone {GITHUB_URL}</code>
             </pre>
-            <div className="mt-1 flex justify-end" style={{ fontSize: "0.5rem" }}>
+            <div className="mt-1 flex justify-end text-xs">
               <Link to="https://saasrock.com" className="text-muted-foreground hover:underline" target="_blank">
                 {t("sponsoredBy")} <span className="font-bold">SaasRock</span>
               </Link>
