@@ -1,14 +1,13 @@
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { json, LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { Button } from "~/components/ui/button";
-import ButtonSecondary from "~/components/ui/buttons/ButtonSecondary";
 import DarkModeToggle from "~/components/ui/selectors/DarkModeToggle";
 import LocaleSelector from "~/components/ui/selectors/LocaleSelector";
 import ThemeSelector from "~/components/ui/selectors/ThemeSelector";
-import YouTubeIcon from "~/components/ui/YouTubeIcon";
+import YouTubeIcon from "~/components/ui/icons/YouTubeIcon";
+import GitHubIcon from "~/components/ui/icons/GitHubIcon";
 import { getTranslations } from "~/locale/i18next.server";
 
 const GITHUB_URL = "https://github.com/rockstack-dev/remix-gear.git";
@@ -43,7 +42,7 @@ export default function () {
             </Button>
             <Button variant="ghost" asChild size="sm">
               <Link to={GITHUB_URL}>
-                <GitHubLogoIcon className="h-5 w-5 text-muted-foreground" />
+                <GitHubIcon className="h-5 w-5 text-muted-foreground" />
               </Link>
             </Button>
             <LocaleSelector />
