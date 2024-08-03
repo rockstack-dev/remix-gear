@@ -1,5 +1,7 @@
 # Remix Gear
 
+Start from scratch but not from zero:
+
 - [Remix](https://remix.run/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
