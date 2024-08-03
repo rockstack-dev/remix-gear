@@ -97,7 +97,7 @@ export default function () {
             <h3 className="text-sm font-bold">Demos</h3>
             <div className="grid grid-cols-3 gap-4">
               <Link
-                to="/forms"
+                to="https://remix-gear-git-forms-alexandro-pro.vercel.app/forms"
                 className="h-12 rounded-md border border-border bg-background p-3 text-primary hover:bg-secondary/90 hover:text-secondary-foreground"
               >
                 <div className="flex justify-center text-sm font-medium">Form actions</div>
