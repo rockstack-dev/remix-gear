@@ -1,4 +1,3 @@
-import { json, LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
@@ -13,18 +12,6 @@ import TwitterIcon from "~/components/ui/icons/TwitterIcon";
 const GITHUB_URL = "https://github.com/rockstack-dev/remix-gear.git";
 const YOUTUBE_URL = "https://www.youtube.com/@rockstack-dev";
 const TWITTER_URL = "https://twitter.com/AlexandroMtzG";
-
-export const meta: MetaFunction<typeof loader> = ({ data }) => data?.metatags ?? [];
-
-type LoaderData = {
-  metatags: [{ title: string }];
-};
-export const loader = async ({ request }: LoaderFunctionArgs) => {
-  const data: LoaderData = {
-    metatags: [{ title: "Remix Gear" }],
-  };
-  return json(data);
-};
 
 export default function () {
   const { t } = useTranslation();

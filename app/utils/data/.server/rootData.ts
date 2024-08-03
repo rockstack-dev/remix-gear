@@ -9,7 +9,7 @@ export async function loadRootData({ request, params }: { request: Request; para
   const userInfo = await getUserInfo(request);
   const locale = await remixI18Next.getLocale(request);
   const data: AppRootData = {
-    metatags: [{ title: `${process.env.APP_NAME}` }],
+    metatags: [{ title: "Remix Gear" }],
     locale,
     theme: {
       color: userInfo.theme,
