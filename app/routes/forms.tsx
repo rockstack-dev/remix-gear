@@ -35,7 +35,7 @@ export default function () {
     }
   }, [actionData]);
   return (
-    <div className="space-y-3 p-12">
+    <div className="mx-auto max-w-2xl space-y-3 p-12">
       <HomeBreadcrumb title="Form Actions" />
       <h1 className="text-3xl font-bold">Remix Form Actions</h1>
       <div>
