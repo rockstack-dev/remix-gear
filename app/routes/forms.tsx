@@ -6,7 +6,6 @@ import { useTypedActionData } from "remix-typedjson";
 import { useEffect, useRef } from "react";
 import { toast } from "sonner";
 import clsx from "clsx";
-import { Breadcrumb } from "~/components/ui/breadcrumb";
 import HomeBreadcrumb from "~/components/HomeBreadcrumb";
 
 type ActionData = {
