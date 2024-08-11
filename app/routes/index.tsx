@@ -109,6 +109,12 @@ export default function () {
                 <div className="flex justify-center text-sm font-medium">AI: Structured Outputs</div>
               </Link>
               <Link
+                to="https://remix-gear-whatsapp-api-alexandro-pro.vercel.app/whatsapp-api"
+                className="h-12 rounded-md border border-border bg-background p-3 text-primary hover:bg-secondary/90 hover:text-secondary-foreground"
+              >
+                <div className="flex justify-center text-sm font-medium">WhatsApp API</div>
+              </Link>
+              <Link
                 to="https://twitter.com/AlexandroMtzG"
                 className="h-12 rounded-md border border-dashed border-border bg-background p-3 text-primary opacity-50 hover:bg-secondary/90 hover:text-secondary-foreground"
               >
