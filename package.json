@@ -54,6 +54,7 @@
     "i18next-fs-backend": "^2.2.0",
     "i18next-http-backend": "^2.2.2",
     "isbot": "^3.7.0",
+    "libphonenumber-js": "^1.11.5",
     "next-themes": "^0.2.1",
     "react": "^18.3.0-canary-593ecee66-20231114",
     "react-dom": "^18.3.0-canary-593ecee66-20231114",
