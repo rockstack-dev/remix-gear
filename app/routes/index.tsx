@@ -106,7 +106,7 @@ export default function () {
                 to="https://remix-gear-git-ai-structured-alexandro-pro.vercel.app/ai-structured-outputs"
                 className="h-12 rounded-md border border-border bg-background p-3 text-primary hover:bg-secondary/90 hover:text-secondary-foreground"
               >
-                <div className="flex justify-center text-sm font-medium">AI: Structured Outputs</div>
+                <div className="flex justify-center text-sm font-medium">AI Structured Outputs</div>
               </Link>
               <Link
                 to="https://remix-gear-git-whatsapp-api-alexandro-pro.vercel.app/whatsapp-api"
